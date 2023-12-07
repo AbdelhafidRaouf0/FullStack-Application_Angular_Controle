@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "user",
+      "username": "user",
+      "password": "user",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXIiLCJ1c2VybmFtZSI6InVzZXIiLCJwYXNzd29yZCI6InVzZXIiLCJyb2xlcyI6WyJVU0VSIl19.D4xld3fpsHfryny6XXbnPj02Lf03wihnTGJQDMthk5M"
+    },
+    {
+      "id": "admin",
+      "username": "admin",
+      "password": "admin",
+      "roles": [
+        "USER",
+        "ADMIN"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFkbWluIiwidXNlcm5hbWUiOiJhZG1pbiIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlcyI6WyJVU0VSIiwiQURNSU4iXX0.cxx0hmuNvtQ8yhQBIfpkFWgay4zJHQqy4ZK7HaWBirY"
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone 13 Pro Max",
+      "price": 10800,
+      "checked": true,
+      "id": 1
+    },
+    {
+      "name": "iphone 13 pro",
+      "price": 9500,
+      "checked": true,
+      "id": 2
+    },
+    {
+      "name": "iphone 14 Pro Max",
+      "price": 13800,
+      "checked": false,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "iphone 14 pro ",
+      "price": 12800,
+      "checked": false
+    },
+    {
+      "id": 5,
+      "name": "iphone 15 Pro Max",
+      "price": 15800,
+      "checked": true
+    },
+    {
+      "name": "MacBook-I5",
+      "price": 8500,
+      "checked": true,
+      "id": 6
+    },
+    {
+      "name": "MacBook Pro M2",
+      "price": 23000,
+      "checked": true,
+      "id": 7
+    }
+  ]
+}
