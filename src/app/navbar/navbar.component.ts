@@ -20,17 +20,13 @@ export class NavbarComponent {
     {title: 'Products', route: '/admin/products', icon: 'search'},
     {title: 'Add Product', route: '/admin/newProduct', icon: 'plus-circle'},
   ]
-
   currentAction: any;
-
   constructor(
     public appState: AppStateService,
     private router: Router){}
-
   setCurrentAction(action: any) {
     this.currentAction = action;
   }
-
   login(){
     this.router.navigate(['/login'])
   }

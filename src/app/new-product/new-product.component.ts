@@ -13,12 +13,10 @@ import {Router} from "@angular/router";
 })
 export class NewProductComponent implements OnInit{
   public productForm!: FormGroup;
-
   constructor(private formBuilder: FormBuilder,
               private productService: ProductService,
               private router: Router) {
   }
-
   ngOnInit(): void {
     this.productForm = this.formBuilder.group({
       name: this.formBuilder.control('', [Validators.required, Validators.minLength(3)]),
@@ -26,7 +24,6 @@ export class NewProductComponent implements OnInit{
       checked: this.formBuilder.control(false)
     });
   }
-
   saveProduct() {
     let product : Product = this.productForm.value;
     this.productService.saveProduct(product).subscribe((data: any) => {

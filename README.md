@@ -1,3 +1,28 @@
+## Interface Login "Administrateur (admin:admin), Utilisateur (user:user)"
+![interface Login](Screen/login.PNG)
+## Interface Administrateur Products
+![interface Administrateur](Screen/produit-admin.PNG)
+## Interface Administrateur Add Products
+![Interface Administrateur Add Products](Screen/add-product-admin.PNG)
+## Interface Administrateur Add Products Acer-Nitro 5
+![Interface Administrateur Add Products Acer](Screen/Add%20acer.PNG)
+## Interface Administrateur Add Successful
+![Interface Administrateur Add Successful](Screen/ajout%20avec%20suc.PNG)
+## Interface Administrateur Update Product
+![Interface Administrateur Update Product](Screen/update-Acer.PNG)
+## Interface Administrateur Update Successful
+![Interface Administrateur Update Successful](Screen/udpdate%20avec%20suc.PNG)
+## Interface Administrateur Delete Product
+![Interface Administrateur Delete Successful](Screen/delate%20avec%20suc.PNG)
+## Interface Administrateur Delete Product Console Json
+![Interface Administrateur Delete Successful](Screen/delete-console.PNG)
+## Interface User Products
+![interface User](Screen/interface-User.PNG)
+## Interface User Add 
+![interface User Add](Screen/Add-product%20_You%20are%20not%20Authorized.PNG)
+## Interface Aministrateur Search Products
+![interface User Search](Screen/search-Mac.PNG)
+
 # CtrlAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
